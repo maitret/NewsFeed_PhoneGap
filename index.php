@@ -1,5 +1,5 @@
-Servidor: <b
+Servidor: <br>
+
 <?php
-//phpinfo(
-var_dump($_REQUEST);
+echo json_encode($_REQUEST);
 ?>
