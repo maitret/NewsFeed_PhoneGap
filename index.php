@@ -1,4 +1,4 @@
-Este es un phpinfo(), no mamar Zorra del Mal! :D<br>
+Este es un phpinfo()......<br>
 
 <?php
 //phpinfo();
