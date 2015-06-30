@@ -1,5 +1,4 @@
-Este es un phpinfo(), no mamar ramonsin<br>
-
+Este es un phpinfo(), no mamar<br>
 
 <?php
 phpinfo();
