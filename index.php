@@ -1,7 +1,5 @@
-Este es un phpinfo()......<br>
-
+Servidor: <b
 <?php
-//phpinfo();
-var_dump($_REQUEST);
-
+//phpinfo(
+var_dump($_RUEST)
 ?>
