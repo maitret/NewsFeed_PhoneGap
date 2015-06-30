@@ -1,5 +1,4 @@
-# NewsFeed_PhoneGap
-PhoneGap / News Feeed
+# NewsFeed_Server
+News Feed: Server
 
 :)
-
