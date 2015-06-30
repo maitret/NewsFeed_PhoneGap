@@ -1,2 +1,4 @@
 # NewsFeed_PhoneGap
-Holi
+PhoneGap / News Feeed
+
+:)
