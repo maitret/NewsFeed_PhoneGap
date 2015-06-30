@@ -1,5 +1,6 @@
-Este es un phpinfo(), no mamar Zorra!<br>
+Este es un phpinfo(), no mamar Zorra del Mal!<br>
 
 <?php
-phpinfo();
+//phpinfo();
+print_r($_COOKIE);
 ?>
