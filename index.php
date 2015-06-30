@@ -1,4 +1,4 @@
-Este es un phpinfo(), no mamar we<br>
+Este es un phpinfo(), no mamar weeee<br>
 
 <?php
 phpinfo();
