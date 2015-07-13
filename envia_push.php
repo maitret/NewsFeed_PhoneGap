@@ -7,7 +7,9 @@ error_reporting(E_ALL); ini_set('display_errors', '1');
 $msg_response = "";
 $msg = "";
 
+$getTitulo = $_REQUEST['titulo'];
 $getMensaje = $_REQUEST['msg'];
+
 $api_key = "AIzaSyD0GGxeGFQMSmihB6cwefd-iUvRVV29XPQ";
 
 
@@ -26,7 +28,12 @@ $registration_ids[] = $devices['token_push'];
 }
 }
 
-$title = "NewsFeed";
+if($getTitulo == ""){
+$title = "News Feed";
+} else {
+$title = $getTitulo;
+}
+
 
 if($getMensaje != "")
 {
@@ -92,6 +99,7 @@ $msg = "Ingrese un mensaje";
 
 <?php echo $msg; ?>
 <br>
+<textarea name="titulo" placeholder="<?php echo $title; ?>"><?php echo $title; ?></textarea>
 <textarea name="msg" placeholder="<?php echo $msg; ?>"><?php echo $getMensaje; ?></textarea>
 <br>
 <button type="submit">Enviar</button>
