@@ -3,7 +3,7 @@ header('Access-Control-Allow-Origin: *');
 //header("content-type: application/javascript");
 include_once("funciones.php");
 
-error_reporting(E_ALL); ini_set('display_errors', '1');
+error_reporting(E_ALL); ini_set('display_errors', '0');
 $msg_response = "";
 $msg = "";
 
@@ -106,5 +106,5 @@ $msg = "Ingrese un mensaje";
 </form>
 
 <?php
-echo json_encode($registration_ids); 
+//echo json_encode($registration_ids);
 ?>
