@@ -12,9 +12,7 @@ $getMensaje = $_REQUEST['msg'];
 
 $api_key = "AIzaSyD0GGxeGFQMSmihB6cwefd-iUvRVV29XPQ";
 
-
 //$registration_ids = array( "APA91bEWSfih_j6EZ5J8s3joTYBJ-jaEBWGPwKaL-IiGjNaS0Kek7mJ38JTvW-7hIdRFTYNxt4H4Af6fCM6lbMxrd-HLVAGtWHZLxZTSLB0U1Fc-KCusekkyeZ0tk01lN7FJs_cdlw2sczPGLG-Ca_4AtICU3QAqDIl8EjDv5AKzVF33qirI7u8" );
-
 
 $registration_ids = array();
 
